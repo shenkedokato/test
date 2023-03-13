@@ -2,6 +2,7 @@ name: test wf
 on: push
 jobs:
   example-job:
+    runs-on: windows-latest
     name: Save output
     steps:
       - shell: bash
