@@ -1,3 +1,5 @@
+name: test wf
+on: main
 jobs:
   example-job:
     name: Save output
