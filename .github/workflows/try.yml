@@ -1,5 +1,5 @@
 name: test wf
-on: main
+on: push
 jobs:
   example-job:
     name: Save output
