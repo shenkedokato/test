@@ -1,0 +1,10 @@
+name: test wf
+on: push
+jobs:
+  example-job:
+    runs-on: windows-latest
+    steps:
+      - name: Download a single artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: output-log-file
