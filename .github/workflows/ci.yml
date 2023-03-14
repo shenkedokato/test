@@ -13,7 +13,7 @@ jobs:
     runs-on: ${{ vars.RUNNER }}
     environment: ${{ vars.ENVIRONMENT_STAGE }}
     steps:
-    - name: Use variables
+    - name: Use variables 
       run: |
         echo "repository variable : ${{ vars.REPOSITORY_VAR }}"
         echo "organization variable : ${{ vars.ORGANIZATION_VAR }}"
