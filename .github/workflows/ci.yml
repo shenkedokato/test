@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print action path
-        run: echo "Action path is ${{ github.action_path }}"
+        run: echo "Action path is ${{ github.action_ref }}"
